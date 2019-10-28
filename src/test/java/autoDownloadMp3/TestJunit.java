@@ -1,7 +1,12 @@
 package autoDownloadMp3;
 
+import java.awt.BorderLayout;
+import java.awt.Label;
 import java.io.File;
 
+import javax.swing.JFrame;
+
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.mpatric.mp3agic.ID3v1Tag;
@@ -11,11 +16,39 @@ public class TestJunit {
 
 	
 	
+	public static void window() {
+		
+		JFrame frame = new JFrame("Test Window");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Label test = new Label();
+		
+		frame.getContentPane().add(test,BorderLayout.CENTER);
+		
+		
+		frame.pack();
+		
+		frame.setVisible(true);
+		
+		
+		
+		
+	}
 	
 	
 	
 	
-	@Test
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Ignore
 	public void TestMp3title () {
 		
 		
@@ -52,4 +85,20 @@ public class TestJunit {
 		   }}
 		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

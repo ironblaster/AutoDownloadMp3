@@ -11,7 +11,7 @@ public class Main {
 	//test jwindow
 	public static void main(String [] args) {
 		
-		
+	/*	
 		JFrame frame = new JFrame("Test Window");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -23,6 +23,15 @@ public class Main {
 		frame.pack();
 		
 		frame.setVisible(true);
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 	

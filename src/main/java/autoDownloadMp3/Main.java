@@ -1,8 +1,7 @@
 package autoDownloadMp3;
 
-import java.awt.BorderLayout;
+import java.awt.FlowLayout;
 import java.awt.Label;
-
 import javax.swing.JFrame;
 
 public class Main {
@@ -12,17 +11,33 @@ public class Main {
 	public static void main(String [] args) {
 		
 	/*	
-		JFrame frame = new JFrame("Test Window");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JFrame lay = new JFrame("window");
+		
+		
+		
 		
 		Label test = new Label("test label");
+		Label test2 = new Label("test label2");
+		Label test3 = new Label("test label3");
+		Label test4 = new Label("test label4");
 		
-		frame.getContentPane().add(test,BorderLayout.CENTER);
 		
 		
-		frame.pack();
+		lay.add(test);
+		lay.add(test2);
+		lay.add(test3);
+		lay.add(test4);
 		
-		frame.setVisible(true);
+		
+		lay.setSize(500,300);
+		lay.setLayout(new FlowLayout());
+		
+		lay.setVisible(true);
+		
+		
+		
+		
 		*/
 		
 		

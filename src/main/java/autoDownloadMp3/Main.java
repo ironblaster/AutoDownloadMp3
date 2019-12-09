@@ -10,7 +10,7 @@ public class Main {
 	//test jwindow
 	public static void main(String [] args) {
 		
-	/*	
+		
 		
 		JFrame lay = new JFrame("window");
 		
@@ -38,7 +38,6 @@ public class Main {
 		
 		
 		
-		*/
 		
 		
 		
@@ -48,6 +47,13 @@ public class Main {
 		
 		
 		
+		
+	}
+	
+	public int test (int i) {
+		
+		
+		return i;
 	}
 	
 	
